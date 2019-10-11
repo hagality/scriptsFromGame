@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemCollection>
+  <GameItems>
+
+
+    <Item>
+      <id>0</id>
+      <itemName>empty</itemName>
+      <type>item</type>
+      <typeSpecificaiton>empty</typeSpecificaiton>
+      <twoHanded>false</twoHanded>
+    </Item>
+
+    //BACKPACKS-----------------------------------------------------
+
+
+
+    //WEAPONS-----------------------------------------------------
+
+    <Item>
+      <id>2000</id>
+      <itemName>Giant Sword</itemName>
+      <type>item</type>
+      <typeSpecificaiton>weapon</typeSpecificaiton>
+      <twoHanded>true</twoHanded>
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>false</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+
+      <damage>2000</damage>
+      <rangeAttack>10</rangeAttack>
+
+
+    </Item>
+
+    <Item>
+      <id>2001</id>
+      <itemName>Magic Sword</itemName>
+      <type>item</type>
+      <typeSpecificaiton>weapon</typeSpecificaiton>
+      <damage>10</damage>
+      <rangeAttack>3</rangeAttack>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    <Item>
+      <id>2004</id>
+      <itemName>Wand Of Vortex</itemName>
+      <type>item</type>
+      <typeSpecificaiton>weapon</typeSpecificaiton>
+      <damage>5</damage>
+      <rangeAttack>3</rangeAttack>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+
+    <Item>
+      <id>2100</id>
+      <itemName>Bow</itemName>
+      <typeSpecificaiton>weapon</typeSpecificaiton>
+      <twoHanded>true</twoHanded>
+      <type>item</type>
+    </Item>
+
+    <Item>
+      <id>2101</id>
+      <itemName>Crossbow</itemName>
+      <twoHanded>true</twoHanded>
+      <typeSpecificaiton>weapon</typeSpecificaiton>
+    </Item>
+
+    <Item>
+      <id>2102</id>
+      <itemName>Arrow</itemName>
+      <type>item</type>
+      <typeSpecificaiton>bullet</typeSpecificaiton>
+    </Item>
+
+    <Item>
+      <id>2103</id>
+      <itemName>Bolt</itemName>
+      <type>item</type>
+      <typeSpecificaiton>bullet</typeSpecificaiton>
+    </Item>
+
+    //LEGS-----------------------------------------------------
+
+    <Item>
+      <id>3000</id>
+      <itemName>Crown Legs</itemName>
+      <type>item</type>
+      <typeSpecificaiton>legs</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    //RINGS-----------------------------------------------------
+
+    <Item>
+      <id>3500</id>
+      <itemName>Ring Of Healing</itemName>
+      <type>item</type>
+      <typeSpecificaiton>ring</typeSpecificaiton>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    <Item>
+      <id>3501</id>
+      <itemName>Energy Ring</itemName>
+      <type>item</type>
+      <typeSpecificaiton>ring</typeSpecificaiton>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    <Item>
+      <id>3502</id>
+      <itemName>Time Ring</itemName>
+      <type>item</type>
+      <typeSpecificaiton>ring</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+      <maxStack>1</maxStack>
+      <currentStack>1</currentStack>
+    </Item>
+
+    //RUNES / FLUIDS-----------------------------------------------------
+
+    <Item>
+      <id>4000</id>
+      <itemName>Magic Wall Rune</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+
+      <canUseOnYourself>false</canUseOnYourself>
+      <canUseOnCreature>false</canUseOnCreature>
+      <canUseOnPosition>true</canUseOnPosition>
+
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>true</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+      <maxStack>100</maxStack>
+      <currentStack>100</currentStack>
+      <timeToDestroy>15</timeToDestroy>
+
+
+    </Item>
+
+
+    <Item>
+      <id>4001</id>
+      <itemName>Heavy Magic Missile Rune</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+    </Item>
+
+
+    <Item>
+      <id>4002</id>
+      <itemName>Sudden Death Rune</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+
+      <canUseOnYourself>false</canUseOnYourself>
+      <canUseOnCreature>true</canUseOnCreature>
+      <canUseOnPosition>false</canUseOnPosition>
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>false</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+      <maxStack>50</maxStack>
+      <currentStack>50</currentStack>
+
+    </Item>
+
+
+
+
+
+
+    <Item>
+      <id>4003</id>
+      <itemName>Ultimate Healing Rune</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+
+
+      <canUseOnYourself>true</canUseOnYourself>
+      <canUseOnCreature>true</canUseOnCreature>
+      <canUseOnPosition>false</canUseOnPosition>
+
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>false</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+      <maxStack>190</maxStack>
+      <currentStack>120</currentStack>
+
+    </Item>
+
+
+
+    <Item>
+      <id>4100</id>
+      <itemName>Mana Fluid</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+
+
+      <canUseOnYourself>true</canUseOnYourself>
+      <canUseOnCreature>false</canUseOnCreature>
+      <canUseOnPosition>false</canUseOnPosition>
+
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>false</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+      <maxStack>100</maxStack>
+      <currentStack>100</currentStack>
+
+    </Item>
+
+
+
+    <Item>
+      <id>4101</id>
+      <itemName>Energy Field Rune</itemName>
+      <type>item</type>
+      <typeSpecificaiton>rune</typeSpecificaiton>
+
+      <canUseOnYourself>true</canUseOnYourself>
+      <canUseOnCreature>true</canUseOnCreature>
+      <canUseOnPosition>true</canUseOnPosition>
+
+      <itemProperty_PICKUPABLE>true</itemProperty_PICKUPABLE>
+      <itemProperty_PUSHABLE>true</itemProperty_PUSHABLE>
+      <itemProperty_BLOCKWALK>false</itemProperty_BLOCKWALK>
+
+      <itemProperty_STACKABLE>true</itemProperty_STACKABLE>
+      <maxStack>5</maxStack>
+
+    </Item>
+
+    //OTHER ITEMS------------------------------------------------
+
+    <Item>
+      <id>9000</id>
+      <itemName>Shovel</itemName>
+      <type>item</type>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+
+    <Item>
+      <id>9001</id>
+      <itemName>Rope</itemName>
+      <type>item</type>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+
+    //BOOTS-----------------------------------------------------
+
+    <Item>
+      <id>5000</id>
+      <itemName>Boots Of Haste</itemName>
+      <type>item</type>
+      <typeSpecificaiton>boots</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    //nowe
+    <Item>
+      <id>33</id>
+      <itemName>Blue Robe</itemName>
+      <type>item</type>
+      <typeSpecificaiton>armor</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+
+    <Item>
+      <id>34</id>
+      <itemName>Royal Helmet</itemName>
+      <type>item</type>
+      <typeSpecificaiton>helmet</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+
+    <Item>
+      <id>35</id>
+      <itemName>Vampire Shield</itemName>
+      <type>item</type>
+      <typeSpecificaiton>shield</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    <Item>
+      <id>36</id>
+      <itemName>Scarf</itemName>
+      <type>item</type>
+      <typeSpecificaiton>amulet</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+    <Item>
+      <id>37</id>
+      <itemName>Stone Skin Amulet</itemName>
+      <type>item</type>
+      <typeSpecificaiton>amulet</typeSpecificaiton>
+      <itemProperty_STACKABLE>false</itemProperty_STACKABLE>
+    </Item>
+
+  </GameItems>
+</ItemCollection>
